@@ -1,0 +1,14 @@
+hulk_bday:
+  content: 'Happy Birthday'
+  trigger_at: 1990-01-15 09:00:00
+  user: hulk
+
+ironman_bday:
+  content: 'Happy Birthday'
+  trigger_at: 1990-05-21 09:00:00
+  user: ironman
+
+spiderman_bday:
+  content: 'Happy Birthday'
+  trigger_at: 2000-01-01 09:00:00
+  user: spiderman
