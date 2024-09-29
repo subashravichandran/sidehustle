@@ -9,4 +9,10 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   root "render#dashboard"
 
+  # version 01
+  namespace :api do
+    namespace :v1 do
+      resources :users, only: :index
+    end
+  end
 end
