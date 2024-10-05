@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :users, only: :index
+      resources :money_logs, only: [:index, :new, :create, :show, :edit, :update]
     end
   end
 end
