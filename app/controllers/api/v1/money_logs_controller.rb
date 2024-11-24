@@ -3,7 +3,7 @@ class Api::V1::MoneyLogsController < ApplicationController
 
   # GET /money_logs or /money_logs.json
   def index
-    render json: MoneyLog.all.pluck(:income, :expenses)
+    render json: MoneyLog.all.pluck(:income, :expenses, :id)
   end
 
   # GET /money_logs/1 or /money_logs/1.json
